@@ -1,5 +1,6 @@
 import React from "react";
 import AnimatedText from "./AnimatedText";
+import Socials from "./Socials";
 
 const Welcome: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const Welcome: React.FC = () => {
       <p className="max-w-3xl ml-8">
         A motivated 2nd year Computer Programming student.
       </p>
+      <Socials />
     </div>
   );
 };
