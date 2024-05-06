@@ -10,7 +10,7 @@ function App() {
       <NavBar/>
       <GridPattern/>
       <Welcome/>
-    
+
     </div>
   );
 }

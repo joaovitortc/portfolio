@@ -80,3 +80,8 @@ body{
   position: sticky;
   top: 0;
 }
+
+#animated-text{
+  color:aqua;
+  font-weight: 300;
+}
