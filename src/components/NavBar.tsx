@@ -5,7 +5,7 @@ const NavBar: React.FC = () => {
     <nav className='navbar-top'>
     <div id='navbar' className="w-full flex flex-wrap items-center justify-between mx-auto p-2 font-small space-x-2 sm:space-x-6 rtl:space-x-reverse border-0">
         <div className="text-white">
-            Joao Cunha Portfolio
+            João's Portfolio
         </div>
       <div className="block w-auto">
         <ul className="flex flex-row p-0 space-x-2 sm:space-x-6 rtl:space-x-reverse mt-0 border-0">

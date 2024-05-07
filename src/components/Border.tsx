@@ -11,7 +11,7 @@ export default function Border<T extends React.ElementType = 'div'>({ as, classN
     <div
       className={clsx(
         className,
-        'relative before:absolute after:absolute before:bg-white after:bg-gray-500/30 ml-16 mr-16 mt-40',
+        'relative before:absolute after:absolute before:bg-white after:bg-gray-500/30 mb-6 ml-16 mr-16 mt-40',
         position === 'top' && 'before:left-0 before:top-0 before:h-px before:w-6 after:left-8 after:right-0 after:top-0 after:h-px',
         position === 'left' && 'before:left-0 before:top-0 before:h-6 before:w-px after:bottom-0 after:left-0 after:top-8 after:w-px'
       )}

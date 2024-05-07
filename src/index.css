@@ -126,3 +126,39 @@ body{
     transform: rotate(45deg) translate(15px, 15px);
   }
 }
+
+#stars-container canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.icon-container {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 100%);
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.icon {
+  font-size: 60px;
+  color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: shine 2s infinite alternate;
+}
+
+@keyframes shine {
+  0% {
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 50px 20px rgba(255, 255, 255, 0.5);
+  }
+}

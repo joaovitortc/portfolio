@@ -20,16 +20,28 @@ function LinkedinIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
     );
   }
 
+  function ArrowIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
+    return (
+      <svg viewBox="0 0 20 20" fill="none" aria-hidden="true" {...props}>
+        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m11.5 6.5 3 3.5m0 0-3 3.5m3-3.5h-9" />
+      </svg>
+    );
+  }
+
   function Socials(){
     return(
-    <div className="flex ml-8 mt-3">
-        <a href="https://www.linkedin.com/joaovitortc" target="_blank" rel="noreferrer">
-            <LinkedinIcon className="w-6 h-6 fill-current text-white" />
+    <div className="flex mt-3">
+        <a href="https://www.linkedin.com/in/joaovitortc/" target="_blank" rel="noreferrer">
+            <LinkedinIcon className="w-7 h-7 fill-current text-white" />
         </a>
-        <a className="ml-2" href="https://www.github.com/joaovitortc" target="_blank" rel="noreferrer">
-            <GitHubIcon className="w-6 h-6 fill-current text-white" />
+        <a className="ml-3" href="https://www.github.com/joaovitortc" target="_blank" rel="noreferrer">
+            <GitHubIcon className="w-7 h-7 fill-current text-white" />
         </a>
-        <button className="ml-4"> Contact me </button>
+        <a className=" ml-3 inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition button-hover-shadow rounded-full bg-zinc-100 py-1 px-3 text-zinc-900 hover:bg-zinc-200 flex items-center gap-x-2" 
+        href="#Contact">
+        Contact me 
+        <ArrowIcon className='mt-0.5 h-5 w-5'/>
+        </a>
     </div>
     )
   }
