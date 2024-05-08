@@ -6,6 +6,7 @@ import Border from "./components/Border.tsx";
 import ScrollDown from "./components/ScrollDown.tsx";
 import Stars from "./components/Stars.tsx";
 import AboutMe from "./components/AboutMe.tsx";
+import Skills from "./components/Skills.tsx";
 import "./index.css";
 
 function App() {
@@ -21,6 +22,11 @@ function App() {
       <div id="stars-container" className="relative">
         <Stars />
         <AboutMe />
+        <ScrollDown />
+        <Border/>
+
+        <Skills />
+        <ScrollDown />
         <Border/>
       </div>
     
