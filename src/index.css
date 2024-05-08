@@ -38,10 +38,10 @@ body{
 }
 
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  animation-name: wave-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
   display: inline-block;
 }
 
@@ -73,7 +73,7 @@ body{
 }
 
 #navbar{
-  background-color: rgb(17 24 39 / 36%);
+  background-color: rgb(30 35 54);
 }
 
 .navbar-top{
@@ -135,30 +135,6 @@ body{
   width: 100%;
 }
 
-.icon-container {
-  width: 100px;
-  height: 100px;
-  background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 100%);
-  border-radius: 50%;
-  overflow: hidden;
-  position: relative;
-}
-
-.icon {
-  font-size: 60px;
-  color: yellow;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: shine 2s infinite alternate;
-}
-
-@keyframes shine {
-  0% {
-    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.5);
-  }
-  100% {
-    box-shadow: 0 0 50px 20px rgba(255, 255, 255, 0.5);
-  }
+#trophy{
+  color: gold;
 }
