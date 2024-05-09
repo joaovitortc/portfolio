@@ -7,6 +7,7 @@ import ScrollDown from "./components/ScrollDown.tsx";
 import Stars from "./components/Stars.tsx";
 import AboutMe from "./components/AboutMe.tsx";
 import Skills from "./components/Skills.tsx";
+import Projects from "./components/Projects.tsx";
 import "./index.css";
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
         <Border/>
 
         <Skills />
+        <ScrollDown />
+        <Border/>
+
+        <Projects />
         <ScrollDown />
         <Border/>
       </div>

@@ -33,8 +33,8 @@ function Skills() {
         title="Skills"
         description={
           <div>
-            <span className="text-skills_purple">Click </span> on the control to
-            check my <span className="text-skills_purple">skills</span>
+            <span className="text-skills_purple">Explore </span> my skill set
+            and see how I can contribute to <span className="text-skills_purple">your project</span>
           </div>
         }
       />
