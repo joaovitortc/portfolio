@@ -4,7 +4,7 @@ export default function ExpandArrowLink({ href, className, content }:
     { href: string; className: string; content?: string}) {
   return (
     <div className="flex w-max my-work-button-container cursor-pointer mt-8">
-      <a href={href} className={clsx('my-work-button text-2xl text-white font-semibold relative', className)}>
+      <a href={href} target="_blank" rel="noreferrer" className={clsx('my-work-button text-2xl text-white font-semibold relative', className)}>
         {content || 'Learn More'}
       </a>
       <span className="flex items-center h-6 mt-auto transition-all duration-300">
