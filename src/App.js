@@ -8,6 +8,7 @@ import Stars from "./components/Stars.tsx";
 import AboutMe from "./components/AboutMe.tsx";
 import Skills from "./components/Skills.tsx";
 import Projects from "./components/Projects.tsx";
+import ContactForm from "./components/ContactForm.tsx";
 import "./index.css";
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
         <Projects />
         <ScrollDown />
         <Border/>
+
+        <ContactForm />
       </div>
     
     </div>

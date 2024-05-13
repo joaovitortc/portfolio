@@ -38,7 +38,7 @@ function LinkedinIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
             <GitHubIcon className="w-7 h-7 fill-current text-white" />
         </a>
         <a className=" ml-3 inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition button-hover-shadow rounded-full bg-zinc-100 py-1 px-3 text-zinc-900 hover:bg-zinc-200 flex items-center gap-x-2" 
-        href="#Contact">
+        href="#contact">
         Contact me 
         <ArrowIcon className='mt-0.5 h-5 w-5'/>
         </a>

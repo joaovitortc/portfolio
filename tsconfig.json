@@ -24,7 +24,7 @@
         "@/*": ["./src/*"]
       }
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/**/*.tsx", "src/lib/providers.js", "src/icons/split-vertical-untoggled.jsx", "src/app/page.js", "src/components/NEw.jsx", "src/lib/leetcode/two-pointers.js", "src/lib/generateLeetcodeMdx.ts", "tailwind.config.js", "src/App.js", "src/components/GridPattern.tsx"],
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/**/*.tsx", "src/lib/providers.js", "src/icons/split-vertical-untoggled.jsx", "src/app/page.js", "src/components/NEw.jsx", "src/lib/leetcode/two-pointers.js", "src/lib/generateLeetcodeMdx.ts", "tailwind.config.js", "src/App.js", "src/components/GridPattern.tsx", "src/api/contact.js"],
     "exclude": ["node_modules"]
   }
   
