@@ -1,0 +1,8 @@
+services:
+  - name: backend-api
+    env: node src/api/contact
+    port: 3001
+  - name: react-app
+    buildCommand: npm run build
+    startCommand: npm start
+    port: 3000
