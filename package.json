@@ -25,7 +25,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"node src/api/contact\" \"react-scripts start\"",
+    "start": "react-scripts start",
     "build": "npm install && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
