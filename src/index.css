@@ -72,8 +72,9 @@ body{
   }
 }
 
-#navbar{
+#navbar, #footer{
   background-color: rgb(30 35 54);
+  z-index:1000;
 }
 
 .navbar-top{

@@ -15,8 +15,8 @@ function Projects() {
         description={
           <div>
             Some of <span className="text-my_work_yellow">my projects</span> as
-            a full stack
-            <span className="text-my_work_yellow"> developer</span>
+            a 
+            <span className="text-my_work_yellow"> student</span>
           </div>
         }
       />
@@ -155,7 +155,7 @@ function Projects() {
                 <div className="flex justify-between">
                   <ExpandArrowLink
                     content="Learn more"
-                    href="https://github.com/joaovitortc/JARVIS"
+                    href="https://github.com/joaovitortc/lease-protect?tab=readme-ov-file"
                     className="before:bg-my_work_yellow "
                   />
                 </div>
@@ -200,7 +200,7 @@ function Projects() {
           "
           image="../projects/inkcraft.png"
           website=""
-          learnMore="https://github.com/joaovitortc/JARVIS"
+          learnMore="https://github.com/joaovitortc/InkCraftPro"
           tech={
             <div className="flex mt-1 mb-1">
               <Skill
