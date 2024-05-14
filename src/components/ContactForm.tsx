@@ -11,7 +11,7 @@ interface FormData {
   message: string;
 }
 
-function TextInput({ label, value, onChange }: { label: string, value: string, onChange: (value: string) => void }) {
+function TextInput({ label, value, onChange }: {label: string, value: string, onChange: (value: string) => void }) {
     let id = useId();
   
     return (
@@ -95,7 +95,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div id="contact" className="relative z-10 ml-16 mr-16 pt-4">
+    <div id="contact" className="relative z-10 ml-3 mr-3 md:ml-16 md:mr-16 pt-4">
     <SectionHeader
       icon={<Envelope height="28" width="28" />}
       title="Contact me"

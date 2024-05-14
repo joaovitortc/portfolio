@@ -6,7 +6,7 @@ import Socials from "./Socials";
 
 function AboutMe() {
   return (
-    <div id="about" className="relative z-10 ml-16 mr-16 pt-4">
+    <div id="about" className="relative z-10 ml-3 mr-3 md:ml-16 md:mr-16 pt-4">
       <SectionHeader
         icon={
           <>

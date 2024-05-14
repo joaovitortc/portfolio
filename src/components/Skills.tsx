@@ -27,7 +27,7 @@ function Skills() {
   };
 
   return (
-    <div id="skills" className="relative z-10 ml-16 mr-16 pt-4">
+    <div id="skills" className="relative z-10 ml-3 mr-3 md:ml-16 md:mr-16 pt-4">
       <SectionHeader
         icon={<BookOpen height="28" width="28" />}
         title="Skills"
