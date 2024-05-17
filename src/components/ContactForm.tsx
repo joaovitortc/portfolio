@@ -55,23 +55,16 @@ export default function ContactForm() {
     setLoading(true);
 
     try {
+      console.log(formData.company, formData.person_name, formData.message); //check if the data is being sent
       const response = await fetch('https://contact-ltrd.onrender.com/contact', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
-          'X-Postmark-Server-Token': process.env.POSTMARK_SERVER_TOKEN!,
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          From: process.env.EMAIL_FROM!,
-          To: process.env.EMAIL_TO!,
-          Subject: 'Portfolio Contact Form',
-          HtmlBody: `
-            <h1>Portfolio Contact Form</h1>
-            <p><strong>Name:</strong> ${formData.person_name}</p>
-            <p><strong>Company:</strong> ${formData.company}</p>
-            <p><strong>Message:</strong> ${formData.message}</p>
-          `,
-          ReplyTo: formData.email,
+          company: formData.company,
+          person_name: formData.person_name,
+          message: formData.message
         }),
       });
 

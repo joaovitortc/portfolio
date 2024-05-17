@@ -6,7 +6,7 @@ export default function Footer() {
     <footer id="footer" className="mt-40 flex justify-center">
         <div className="flex flex-col mb-3 items-center">
             <Socials/>
-            <p className="text-white text-xs mt-2">Copyright © 2024 João Vitor</p>
+            <p className="text-white text-xs mt-2">Copyright © 2024 João Vitor Topanotti da Cunha</p>
         </div>
 
     </footer>
