@@ -10,6 +10,7 @@ import Skills from "./components/Skills.tsx";
 import Projects from "./components/Projects.tsx";
 import ContactForm from "./components/ContactForm.tsx";
 import Footer from "./components/Footer.tsx";
+
 import "./index.css";
 
 function App() {
@@ -26,20 +27,19 @@ function App() {
         <Stars />
         <AboutMe />
         <ScrollDown />
-        <Border/>
+        <Border />
 
         <Skills />
         <ScrollDown />
-        <Border/>
+        <Border />
 
         <Projects />
         <ScrollDown />
-        <Border/>
+        <Border />
 
         <ContactForm />
         <Footer />
       </div>
-    
     </div>
   );
 }

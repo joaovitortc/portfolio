@@ -1,5 +1,4 @@
 import React, { useState, FormEvent, useId} from 'react';
-import toast from 'react-hot-toast';
 import SectionHeader from './SectionHeader';
 import Envelope from '../icons/envelope';
 import ArrowIcon from '../icons/ArrowIcon';
@@ -36,6 +35,7 @@ function TextInput({ label, value, onChange }: {label: string, value: string, on
 
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);
+  const [sent, setSent] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     person_name: '',
     email: '',
@@ -64,13 +64,16 @@ export default function ContactForm() {
         body: JSON.stringify({
           company: formData.company,
           person_name: formData.person_name,
-          message: formData.message
+          message: formData.message,
+          email: formData.email
         }),
       });
 
+      console.log('Response OK:', response.ok);
+    console.log('Response status:', response.status);
       if (response.ok) {
         console.log('Email sent!');
-        toast.success('Email sent!');
+        setSent(true);
         setFormData({
           person_name: '',
           email: '',
@@ -78,10 +81,16 @@ export default function ContactForm() {
           message: '',
         });
       } else {
-        toast.error('Something went wrong, please try again later.');
+        console.log('Error sending email');
       }
     } catch (error) {
-      toast.error('Something went wrong, please try again later.');
+      console.log('Error:', error);
+      setFormData({
+        person_name: '',
+        email: '',
+        company: '',
+        message: '',
+      });
     } finally {
       setLoading(false);
     }
@@ -125,8 +134,8 @@ export default function ContactForm() {
         <div className="flex justify-end">
           <button disabled={loading} type="submit" className=" mt-2 ml-3 inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition button-hover-shadow rounded-full bg-zinc-100 py-1 px-3 text-zinc-900 hover:bg-zinc-200 flex items-center gap-x-2" 
         >
-        Send
-        <ArrowIcon className='mt-0.5 h-5 w-5'/>
+        Sen{sent ? "t" : "d"}
+        {loading ? <div className="loader"></div> : sent ? <div className="check"></div> : <ArrowIcon className='mt-0.5 h-5 w-5'/>}
         </button>
         </div>
       </form>
