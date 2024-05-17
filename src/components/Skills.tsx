@@ -6,10 +6,10 @@ import BookOpen from "../icons/BookOpen";
 import { skillsLogos, skillsTitles } from "../modules/skills";
 
 const skills = [
-    { skill: 'Languages', buttonClassNames: 'rounded-tl-full', textClassNames: '-translate-x-5' },
-    { skill: 'Front', buttonClassNames: 'rounded-tr-full', textClassNames: 'translate-x-3 translate-y-1' },
-    { skill: 'Back', buttonClassNames: 'rounded-bl-full', textClassNames: 'translate-x-8 -translate-y-3' },
-    { skill: 'Tools', buttonClassNames: 'rounded-br-full', textClassNames: 'translate-x-3 -translate-y-3' },
+    { skill: 'Languages', buttonClassNames: 'rounded-tl-full', textClassNames: '-translate-x-1 ' },
+    { skill: 'Front', buttonClassNames: 'rounded-tr-full', textClassNames: 'translate-x-4 translate-y-1' },
+    { skill: 'Back', buttonClassNames: 'rounded-bl-full', textClassNames: 'translate-x-8 -translate-y-2' },
+    { skill: 'Tools', buttonClassNames: 'rounded-br-full', textClassNames: 'translate-x-4 -translate-y-3' },
   ];
 
 function Skills() {
@@ -48,7 +48,7 @@ function Skills() {
           <div className="rounded-full inset-6 absolute grid grid-cols-2 p-2 gap-2 rotate-45">
             {skills.map((skill) => (
               <button onClick={handleChangeSkill} key={skill.skill} className={clsx('rounded-[500px] skills-buttons', skill.buttonClassNames, activeSkill === skill.skill && 'skills-buttons-active')}>
-                <p className={clsx('text-3xl text-white font-semibold tracking-wide w-min -rotate-45', skill.textClassNames)}>
+                <p className={clsx('text-2xl text-white font-semibold tracking-wide w-min -rotate-45', skill.textClassNames)}>
                   {skill.skill}
                   <span className={clsx('transition-all duration-300 -z-10 bg-[#525df3] absolute bottom-0 left-0 right-0 w-full', activeSkill === skill.skill ? 'h-[18px]' : 'h-[2px]')}></span>
                 </p>
