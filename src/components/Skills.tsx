@@ -8,7 +8,7 @@ import { skillsLogos, skillsTitles } from "../modules/skills";
 const skills = [
     { skill: 'Languages', buttonClassNames: 'rounded-tl-full', textClassNames: '-translate-x-1 ' },
     { skill: 'Front', buttonClassNames: 'rounded-tr-full', textClassNames: 'translate-x-4 translate-y-1' },
-    { skill: 'Back', buttonClassNames: 'rounded-bl-full', textClassNames: 'translate-x-8 -translate-y-2' },
+    { skill: 'Back', buttonClassNames: 'rounded-bl-full', textClassNames: 'translate-x-9 -translate-y-2' },
     { skill: 'Tools', buttonClassNames: 'rounded-br-full', textClassNames: 'translate-x-4 -translate-y-3' },
   ];
 
