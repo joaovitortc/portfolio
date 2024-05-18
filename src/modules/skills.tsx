@@ -55,7 +55,7 @@
       },
       {
         name: 'Bootstrap',
-        image: 'https://img.gs/zpskzcnmbz/quality=low/https://symbols.getvecta.com/stencil_25/5_bootstrap.bbf5d3d59c.svg',
+        image: '/skills/5_bootstrap.bbf5d3d59c.svg',
       },
       {
         name: 'MaterialUI',

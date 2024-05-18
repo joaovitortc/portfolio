@@ -33,27 +33,27 @@ function Projects() {
             <div className="flex mt-1 mb-1">
               <Skill
                 name="EJS"
-                src="https://pbs.twimg.com/profile_images/2199543684/ejs_400x400.png"
+                src="/skills/ejs_400x400.png"
               />
               <Skill
                 name="JavaScript"
-                src="https://abrudz.github.io/logos/JS.svg"
+                src="/skills/JS.svg"
               />
               <Skill
                 name="Bootstrap"
-                src="https://symbols.getvecta.com/stencil_25/5_bootstrap.bbf5d3d59c.svg"
+                src="/skills/5_bootstrap.bbf5d3d59c.svg"
               />
               <Skill
                 name="NodeJS"
-                src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+                src="/skills/nodejs-icon.svg"
               />
               <Skill
                 name="ExpressJS"
-                src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
+                src="/skills/expressjs_logo_icon_169185.png"
               />
               <Skill
                 name="MongoDB"
-                src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+                src="/skills/mongodb-icon-1.svg"
               />
             </div>
           }
@@ -68,23 +68,23 @@ function Projects() {
             <div className="flex mt-1 mb-1">
               <Skill
                 name="Python"
-                src="https://abrudz.github.io/logos/Python.svg"
+                src="/skills/Python.svg"
               />
               <Skill
                 name="JavaScript"
-                src="https://abrudz.github.io/logos/JS.svg"
+                src="/skills/JS.svg"
               />
               <Skill
                 name="NodeJS"
-                src="https://cdn.worldvectorlogo.com/logos/aws-dynamodb.svg"
+                src="/skills/aws-dynamodb.svg"
               />
               <Skill
                 name="ExpressJS"
-                src="https://cdn.worldvectorlogo.com/logos/aws-logo.svg"
+                src="/skills/aws-logo.svg"
               />
               <Skill
                 name="ExpressJS"
-                src="https://cdn.worldvectorlogo.com/logos/aws-lambda-1.svg"
+                src="/skills/aws-lambda-1.svg"
               />
             </div>
           }
@@ -118,36 +118,36 @@ function Projects() {
                 <div className="flex mt-1 mb-1">
                   <Skill
                     name="React"
-                    src="https://symbols.getvecta.com/stencil_25/72_react.76a8d36b4b.svg"
+                    src="/skills/72_react.76a8d36b4b.svg"
                   />
-                  <Skill name="NextJS" src="/logos/nextjs-logo.png" />
+                  <Skill name="NextJS" src="/skills/nextjs-logo.png" />
                   <Skill
                     name="JavaScript"
-                    src="https://abrudz.github.io/logos/JS.svg"
+                    src="/skills/JS.svg"
                   />
                   <Skill
                     name="Solidity"
-                    src="https://upload.wikimedia.org/wikipedia/commons/0/01/Ethereum_logo_translucent.svg"
+                    src="/skills/Ethereum_logo_translucent.svg"
                   />
                   <Skill
                     name="MetaMask"
-                    src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
+                    src="/skills/expressjs_logo_icon_169185.png"
                   />
                   <Skill
                     name="MongoDB"
-                    src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+                    src="/skills/mongodb-icon-1.svg"
                   />
                   <Skill
                     name="TailWind"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png?20230715030042"
+                    src="/skills/Tailwind_CSS_Logo.png"
                   />
                   <Skill
                     name="MetaMask"
-                    src="https://cdn.worldvectorlogo.com/logos/metamask.svg"
+                    src="/skills/metamask.svg"
                   />
                   <Skill
                     name="Cloudinary"
-                    src="https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg"
+                    src="/skills/cloudinary-2.svg"
                   />
                 </div>
               </div>
@@ -177,19 +177,19 @@ function Projects() {
             <div className="flex mt-1 mb-1">
               <Skill
                 name="React"
-                src="https://symbols.getvecta.com/stencil_25/72_react.76a8d36b4b.svg"
+                src="/skills/72_react.76a8d36b4b.svg"
               />
               <Skill
                 name="JavaScript"
-                src="https://abrudz.github.io/logos/JS.svg"
+                src="/skills/JS.svg"
               />
               <Skill
                 name="NodeJS"
-                src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+                src="/skills/nodejs-icon.svg"
               />
               <Skill
                 name="ExpressJS"
-                src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
+                src="/skills/expressjs_logo_icon_169185.png"
               />
             </div>
           }
@@ -205,19 +205,19 @@ function Projects() {
             <div className="flex mt-1 mb-1">
               <Skill
                 name="JavaScript"
-                src="https://abrudz.github.io/logos/JS.svg"
+                src="/skills/JS.svg"
               />
               <Skill
                 name="NodeJS"
-                src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+                src="/skills/nodejs-icon.svg"
               />
               <Skill
                 name="ExpressJS"
-                src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
+                src="/skills/expressjs_logo_icon_169185.png"
               />
               <Skill
                 name="Bootstrap"
-                src="https://symbols.getvecta.com/stencil_25/5_bootstrap.bbf5d3d59c.svg"
+                src="/skills/5_bootstrap.bbf5d3d59c.svg"
               />
             </div>
           }
