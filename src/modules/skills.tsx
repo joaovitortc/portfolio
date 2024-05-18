@@ -30,10 +30,7 @@
       { name: '', image: '' },
       { name: '', image: '' },
       { name: '', image: '' },
-      { name: '', image: '' },
-      { name: '', image: '' },
-      { name: '', image: '' },
-      { name: '', image: '' },
+
     ],
     ['Front' as string]: [
       {
@@ -71,6 +68,7 @@
       { name: '', image: '' },
       { name: '', image: '' },
       { name: '', image: '' },
+      
     ],
     ['Back' as string]: [
       {
@@ -105,6 +103,9 @@
         name: 'Lambda',
         image: 'https://cdn.worldvectorlogo.com/logos/aws-lambda-1.svg',
       },
+      { name: '', image: '' },
+      { name: '', image: '' },
+      { name: '', image: '' },
     ],
     ['Tools' as string]: [
       {
@@ -140,7 +141,7 @@
       { name: 'MetaMask', image: 'https://cdn.worldvectorlogo.com/logos/metamask.svg' },
       { name: 'Cloudinary', image: 'https://cdn.worldvectorlogo.com/logos/cloudinary-2.svg' },
       { name: '', image: '' },
-      { name: '', image: '' },
+      
     ],
   };
   
