@@ -29,7 +29,11 @@ function Skills() {
   return (
     <div id="skills" className="relative z-10 ml-3 mr-3 md:ml-16 md:mr-16 pt-4">
       <SectionHeader
-        icon={<BookOpen height="28" width="28" />}
+        icon={
+        <div className="relative">
+          <BookOpen height="28" width="28" />
+          <span className="bg-skills_purple icon-blur absolute inset-0 -z-10 rounded-full blur shadow-lg"></span>
+          </div>}
         title="Skills"
         description={
           <div>

@@ -9,10 +9,10 @@ function AboutMe() {
     <div id="about" className="relative z-10 ml-3 mr-3 md:ml-16 md:mr-16 pt-4">
       <SectionHeader
         icon={
-          <>
+          <div className="relative">
             <Accounts height="28" width="28" />
-            <span className="icon-blur absolute inset-0 -z-10"></span>
-          </>
+            <span className="bg-about_me_green icon-blur absolute inset-0 -z-10 rounded-full blur shadow-lg"></span>
+          </div>
         }
         title="About Me"
         description={

@@ -11,7 +11,11 @@ function Projects() {
       className="relative z-10 ml-3 mr-3 md:ml-16 md:mr-16 pt-4"
     >
       <SectionHeader
-        icon={<Archive height="28" width="28" />}
+        icon={
+        <div className="relative">
+        <Archive height="28" width="28" />
+        <span className="bg-my_work_yellow icon-blur absolute inset-0 -z-10 rounded-full blur shadow-lg"></span>
+        </div>}
         title="My Projects"
         description={
           <div>
@@ -45,25 +49,7 @@ function Projects() {
               <Skill name="MongoDB" src="/skills/mongodb-icon-1.svg" />
             </div>
           }
-         
         />
-        <ProjectCard
-          title="AWS Web Chat"
-          description="A real-time chat application that leverages the power of AWS to provide a seamless user experience."
-          image="../projects/awschat.png"
-          website=""
-          learnMore="https://github.com/joaovitortc/RealTimeChatApp"
-          tech={
-            <div className="flex mt-1 mb-1 justify-center">
-              <Skill name="Python" src="/skills/Python.svg" />
-              <Skill name="JavaScript" src="/skills/JS.svg" />
-              <Skill name="NodeJS" src="/skills/aws-dynamodb.svg" />
-              <Skill name="ExpressJS" src="/skills/aws-logo.svg" />
-              <Skill name="ExpressJS" src="/skills/aws-lambda-1.svg" />
-            </div>
-          }
-        />
-
         <ProjectCard
           title="Lease Protec"
           description=" Ethereum blockchain solution for rental industry, ensuring
@@ -88,8 +74,28 @@ function Projects() {
           }
           add={
             <div className="relative flex text-white text-md translate-y-1.5">
-            <h6 className="text-my_work_yellow">Seneca's Hackathon Finalist 2024</h6>
-          </div>
+              <h6 className="text-my_work_yellow">
+                Seneca's Hackathon Finalist 2024
+              </h6>
+            </div>
+          }
+        />
+
+        <ProjectCard
+          title="AWS Web Chat"
+          description="A real-time chat application using WebSocket technology on AWS Lambda and
+           DynamoDB. Enables users to connect, send messages, and engage in real-time communication."
+          image="../projects/awschat.png"
+          website=""
+          learnMore="https://github.com/joaovitortc/RealTimeChatApp"
+          tech={
+            <div className="flex mt-1 mb-1 justify-center">
+              <Skill name="Python" src="/skills/Python.svg" />
+              <Skill name="JavaScript" src="/skills/JS.svg" />
+              <Skill name="NodeJS" src="/skills/aws-dynamodb.svg" />
+              <Skill name="ExpressJS" src="/skills/aws-logo.svg" />
+              <Skill name="ExpressJS" src="/skills/aws-lambda-1.svg" />
+            </div>
           }
         />
 
