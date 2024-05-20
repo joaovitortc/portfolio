@@ -19,15 +19,17 @@ function ProjectCard({
 }) {
   return (
     <GlowCard
-      className="hover:shadow-my_work_yellow/90 w-[400px] h-[500px]"
+      className="hover:shadow-my_work_yellow/90 w-[400px] h-[500px] xl:w-[450px] xl:h-[530px] ml-4 mr-4 mb-8"
       glowClassName="from-[#ffdc8b] to-[#ffdc8b]"
     >
       <div className="flex flex-col itens-stretch w-full h-full">
-        <img
-          className="object-cover max-w-full mx-auto rounded-t-lg md:max-h-[400px] lg:h-[200px] xl:max-h-[500px]"
-          src={image}
-          alt=""
-        />
+      <div className="relative w-full h-[200px] xl:h-[230px]">
+      <img
+        className="absolute inset-0 w-full h-full object-cover rounded-t-lg"
+        src={image}
+        alt=""
+      />
+    </div>
         <div className="flex flex-col flex-grow justify-between pt-4 leading-normal">
           <h5 className="mb-1 text-2xl font-bold tracking-tight text-my_work_yellow">
             {title}
@@ -35,7 +37,7 @@ function ProjectCard({
           <p className="mb-1 pt-0 font-normal text-white dark:text-white/90">
             {description}
           </p>
-          <div className="mt-1">{tech}</div>
+          <div className="mt-6 justify-center">{tech}</div>
           <div className="mt-auto">
             <div className="flex justify-between">
               <ExpandArrowLink
