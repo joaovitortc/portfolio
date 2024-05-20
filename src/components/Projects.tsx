@@ -45,6 +45,7 @@ function Projects() {
               <Skill name="MongoDB" src="/skills/mongodb-icon-1.svg" />
             </div>
           }
+         
         />
         <ProjectCard
           title="AWS Web Chat"
@@ -83,8 +84,12 @@ function Projects() {
               <Skill name="MetaMask" src="/skills/metamask.svg" />
               <Skill name="MongoDB" src="/skills/mongodb-icon-1.svg" />
               <Skill name="TailWind" src="/skills/Tailwind_CSS_Logo.png" />
-              
             </div>
+          }
+          add={
+            <div className="relative flex text-white text-md translate-y-1.5">
+            <h6 className="text-my_work_yellow">Seneca's Hackathon Finalist 2024</h6>
+          </div>
           }
         />
 
@@ -107,8 +112,10 @@ function Projects() {
             </div>
           }
           add={
-          <div><i className="fa-solid fa-person-digging"></i>Coming Soon</div>
-        }
+            <div className="relative flex text-white text-md translate-y-1.5">
+              <h6 className="text-my_work_yellow">UI Under Development</h6>
+            </div>
+          }
         />
         <ProjectCard
           title="InkCraft Pro"
@@ -133,7 +140,7 @@ function Projects() {
           }
         />
 
-<ProjectCard
+        <ProjectCard
           title="Portfolio"
           description="
           You are here! This site is built entirely with React.js and Framer Motion. It also features a form built with Express that allows you to send me a message. 
@@ -145,16 +152,12 @@ function Projects() {
             <div className="flex mt-1 mb-1 justify-center">
               <Skill name="React" src="/skills/72_react.76a8d36b4b.svg" />
               <Skill name="NodeJS" src="/skills/nodejs-icon.svg" />
-              <Skill
-                name="ExpressJS"
-                src="/skills/TypeScript.svg"
-              />
+              <Skill name="ExpressJS" src="/skills/TypeScript.svg" />
               <Skill name="TailWind" src="/skills/Tailwind_CSS_Logo.png" />
             </div>
           }
         />
       </div>
-
     </div>
   );
 }
