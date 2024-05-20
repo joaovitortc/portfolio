@@ -106,6 +106,9 @@ function Projects() {
               />
             </div>
           }
+          add={
+          <div><i className="fa-solid fa-person-digging"></i>Coming Soon</div>
+        }
         />
         <ProjectCard
           title="InkCraft Pro"
@@ -133,7 +136,7 @@ function Projects() {
 <ProjectCard
           title="Portfolio"
           description="
-          You are here! This site is built entirely with React.js and Framer Motion. It also features an API that allows you to send emails directly from here. 
+          You are here! This site is built entirely with React.js and Framer Motion. It also features a form built with Express that allows you to send me a message. 
           "
           image="../projects/portfolio.png"
           website=""

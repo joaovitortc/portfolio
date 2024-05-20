@@ -9,6 +9,7 @@ function ProjectCard({
   website,
   learnMore,
   tech,
+  add
 }: {
   title: string;
   description: string;
@@ -16,6 +17,7 @@ function ProjectCard({
   website?: string;
   learnMore: string;
   tech: React.ReactNode;
+  add?: React.ReactNode
 }) {
   return (
     <GlowCard
@@ -31,9 +33,15 @@ function ProjectCard({
       />
     </div>
         <div className="flex flex-col flex-grow justify-between pt-4 leading-normal">
+          <div className="flex flex-row">
           <h5 className="mb-1 text-2xl font-bold tracking-tight text-my_work_yellow">
             {title}
           </h5>
+          {add ? <h6 className="ml-auto mr-2">
+            {add}
+          </h6> : null}
+          </div>
+         
           <p className="mb-1 pt-0 font-normal text-white dark:text-white/90">
             {description}
           </p>
