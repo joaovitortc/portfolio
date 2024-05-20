@@ -73,7 +73,7 @@ function Projects() {
             </div>
           }
           add={
-            <div className="relative flex text-white text-md translate-y-1.5">
+            <div className="relative flex text-white text-xs md:text-sm translate-y-2">
               <h6 className="text-my_work_yellow">
                 Seneca's Hackathon Finalist 2024
               </h6>
