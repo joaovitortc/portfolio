@@ -19,7 +19,7 @@ function ProjectCard({
 }) {
   return (
     <GlowCard
-      className="hover:shadow-my_work_yellow/90"
+      className="hover:shadow-my_work_yellow/90 w-[400px] h-[500px]"
       glowClassName="from-[#ffdc8b] to-[#ffdc8b]"
     >
       <div className="flex flex-col itens-stretch w-full h-full">

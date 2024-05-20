@@ -69,7 +69,7 @@ export default function GlowCard({ children, className = '', glowClassName = '' 
       onMouseEnter={onMouseEnter}
       style={style}
       className={clsx(
-        'group overflow-hidden p-2 sm:p-4 lg:p-8 relative z-10 rounded-2xl border border-gray-500/20 bg-gray-900/20 transition-all glow-card-transition-duration hover:shadow-md select-none',
+        'group overflow-hidden p-4 relative z-10 rounded-2xl border border-gray-500/20 bg-gray-900/20 transition-all glow-card-transition-duration hover:shadow-md select-none',
         className
       )}
     >
