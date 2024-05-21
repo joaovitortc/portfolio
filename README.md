@@ -18,7 +18,7 @@
     <li>Contact Form</li>
   </ul>
 
-  <h2>Technologies Used</h2>
+  <h2>Technologies Used</h2> 
   <ul>
     <li>React</li>
     <li>Framer Motion</li>
@@ -27,7 +27,7 @@
   </ul>
 
   <h2>Animations with Framer Motion</h2>
-  <p>This was the first time that I used Framer Motion, which was crucial to make several animations.</p>
+  <p>This was the first time that I used Framer Motion, which was crucial to make several animations. </p>
 
   <h2>Contact API</h2>
   <p>The contact form in this portfolio makes an HTTP request to a Contact API that I've created specifically to this project.</p>
