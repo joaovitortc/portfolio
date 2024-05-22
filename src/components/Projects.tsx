@@ -31,7 +31,7 @@ function Projects() {
           description="Full-stack web application that allows 
           customers to purchase meal kits and administrators to manage the database."
           image="../projects/kukeen3.png"
-          website="https://cute-pear-abalone-vest.cyclic.app"
+          website="https://kukeen.onrender.com/"
           learnMore="https://github.com/joaovitortc/KuKeen/tree/main"
           tech={
             <div className="flex mt-1 mb-1 justify-center">
