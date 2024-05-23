@@ -109,7 +109,7 @@ function AboutMe() {
                     </p>
                     <div>
                       <p className="text-sm font-semibold leading-8 tracking-tight text-white">
-                        <i id="trophy" className="fa fa-trophy"></i> President's
+                      🏆 President's
                         Honor's List (
                         <span className="text-about_me_green">3x</span>)
                       </p>
