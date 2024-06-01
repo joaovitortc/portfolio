@@ -25,7 +25,7 @@
     <li>Express.js</li>
     <li>Tailwind</li>
   </ul>
-
+ 
   <h2>Animations with Framer Motion</h2>
   <p>This was the first time that I used Framer Motion, which was crucial to make several animations. </p>
 
