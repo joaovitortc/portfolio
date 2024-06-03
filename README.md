@@ -7,7 +7,7 @@
       </a>
         </div>
 <br/>
-  <p>Welcome to my portfolio project! This project is built with React and showcases my work and skills. It features smooth animations and transitions powered by the Framer Motion library</p
+  <p>Welcome to my portfolio project! This project is built with React and showcases my work and skills. It features smooth animations and transitions powered by the Framer Motion library.</p
 
   <h2>Features</h2>
   <ul>
