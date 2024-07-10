@@ -42,9 +42,10 @@
         image: '/skills/14_css3.d930bfb832.svg',
       },
       {
-        name: 'ReactJS',
+        name: 'React',
         image: '/skills/72_react.76a8d36b4b.svg',
       },
+      { name: 'ReactNative', image: '/skills/react-icon.png' },
       {
         name: 'NextJS',
         image: '/skills/nextjs-logo.png',
@@ -65,7 +66,6 @@
         name: 'Sass',
         image: '/skills/77_sass.57898c574e.svg',
       },
-      { name: '', image: '' },
       { name: '', image: '' },
       { name: '', image: '' },
       
