@@ -140,6 +140,7 @@
       { name: 'MetaMask', image: '/skills/metamask.svg' },
       { name: 'Cloudinary', image: '/skills/cloudinary-2.svg' },
       { name: 'Expo', image: '/skills/expo.png' },
+      {name:'', image:''},
       
     ],
   };
