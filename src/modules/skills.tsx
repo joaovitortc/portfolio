@@ -95,6 +95,7 @@
         name: 'DynamoDB',
         image: '/skills/aws-dynamodb.svg',
       },
+      { name: 'Firebase', image: '/skills/firebase.png' },
       {
         name: 'AWS',
         image: '/skills/aws-logo.svg',
@@ -103,7 +104,6 @@
         name: 'Lambda',
         image: '/skills/aws-lambda-1.svg',
       },
-      { name: '', image: '' },
       { name: '', image: '' },
       { name: '', image: '' },
     ],
@@ -137,10 +137,9 @@
         name: 'Render',
         image: '/skills/render.svg',
       },
-      { name: 'Auth0', image: '/skills/auth0.svg' },
       { name: 'MetaMask', image: '/skills/metamask.svg' },
       { name: 'Cloudinary', image: '/skills/cloudinary-2.svg' },
-      { name: '', image: '' },
+      { name: 'Expo', image: '/skills/expo.png' },
       
     ],
   };
