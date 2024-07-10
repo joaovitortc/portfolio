@@ -246,6 +246,7 @@ body{
 .hover-text {
   position: absolute;
   transform: translate(-50%, -50%);
+  right:1%;
   background-color: #1b2133;
   padding: 15px;
   border-radius: 10px;
