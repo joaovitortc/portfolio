@@ -9,7 +9,7 @@ function ProjectCard({
   website,
   learnMore,
   tech,
-  add
+  add,
 }: {
   title: string;
   description: string;
@@ -17,7 +17,7 @@ function ProjectCard({
   website?: string;
   learnMore: string;
   tech: React.ReactNode;
-  add?: React.ReactNode
+  add?: React.ReactNode;
 }) {
   return (
     <GlowCard
@@ -25,23 +25,26 @@ function ProjectCard({
       glowClassName="from-[#ffdc8b] to-[#ffdc8b]"
     >
       <div className="flex flex-col itens-stretch w-full h-full">
-      <div className="relative w-full h-[200px] xl:h-[230px]">
-      <img
-        className="absolute inset-0 w-full h-full object-cover rounded-t-lg"
-        src={image}
-        alt=""
-      />
-    </div>
+        <div className="relative w-full h-[200px] xl:h-[230px]">
+          <img
+            className="absolute inset-0 w-full h-full object-cover rounded-t-lg"
+            src={image}
+            alt=""
+          />
+        </div>
         <div className="flex flex-col flex-grow justify-between pt-4 leading-normal">
           <div className="flex flex-row">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-my_work_yellow">
-            {title}
-          </h5>
-          {add ? <h6 className="ml-auto mr-1">
-            {add}
-          </h6> : null}
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-my_work_yellow">
+              {title}
+            </h5>
+            {add ? (
+              <div className="hover-image-container ml-auto mr-4">
+                <img src="/skills/trophy.png" alt="Hoverable" className="hover-image h-[40px]" />
+                <div className="hover-text">{add}</div>
+              </div>
+            ) : null}
           </div>
-         
+
           <p className="mb-1 pt-0 font-normal text-white dark:text-white/90">
             {description}
           </p>

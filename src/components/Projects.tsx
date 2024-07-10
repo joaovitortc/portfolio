@@ -51,6 +51,27 @@ function Projects() {
           }
         />
         <ProjectCard
+          title="TravelGenie"
+          description="
+          A revolutionary mobile app focused on simplifying travel planning. Utilizing AI, TravelGenie generates personalized travel plans tailored to each user's interests and desired location."
+          image="../projects/genie3.png"
+          website=""
+          learnMore="https://github.com/joaovitortc/TravelGenie"
+          tech={
+            <div className="flex mt-1 mb-1 justify-center">
+              <Skill name="React Native" src="/skills/React-icon.png" />
+              <Skill name="Expo" src="/skills/expo.png" />
+              <Skill name="Firebase" src="/skills/firebase.png" />
+              <Skill name="JavaScript" src="/skills/JS.svg" />
+            </div>
+          }
+          add={
+            <div className="relative flex text-white text-xs md:text-sm translate-y-2">
+              <h6 className="text-my_work_yellow">Best Mobile App Implementation at EPHEC University's International Week - Belgium</h6>
+            </div>
+          }
+        />
+        <ProjectCard
           title="Lease Protec"
           description=" Ethereum blockchain solution for rental industry, ensuring
           transparent, secure lease agreements with digital
@@ -99,7 +120,7 @@ function Projects() {
           }
         />
 
-        <ProjectCard
+        {/* <ProjectCard
           title="J.A.R.V.I.S."
           description="A voice-activated personal assistant that leverages the power of AI to 
           engage in conversations, answer questions, and evaluate responses."
@@ -122,7 +143,7 @@ function Projects() {
               <h6 className="text-my_work_yellow">UI Under Development</h6>
             </div>
           }
-        />
+        /> */}
         <ProjectCard
           title="InkCraft Pro"
           description="An AI-powered website that allows users to generate custom tattoo designs based on their preferences.

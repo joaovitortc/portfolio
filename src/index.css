@@ -237,3 +237,24 @@ body{
   border-right: 7px solid #78b13f;
 }
 
+.hover-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+.hover-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #1b2133;
+  padding: 15px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.6s;
+  pointer-events: none; /* Ensures the text doesn't interfere with hover */
+  z-index: 100000;
+}
+
+.hover-image-container:hover .hover-text {
+  opacity: 1;
+}
