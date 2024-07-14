@@ -45,7 +45,7 @@
         name: 'React',
         image: '/skills/72_react.76a8d36b4b.svg',
       },
-      { name: 'ReactNative', image: '/skills/react-icon.png' },
+      { name: 'ReactNative', image: '/skills/React-icon.png' },
       {
         name: 'NextJS',
         image: '/skills/nextjs-logo.png',
