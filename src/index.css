@@ -20,7 +20,7 @@ body{
 }
 
 ::-webkit-scrollbar {
-  width: 16px;
+  width: 14px;
 }
 
 ::-webkit-scrollbar-track {
@@ -29,7 +29,7 @@ body{
 
 ::-webkit-scrollbar-thumb {
   background: #292d45;
-  height: 80%;
+  height: 40%;
   padding-top: 10px;
 }
 
