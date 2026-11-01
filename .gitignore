@@ -22,3 +22,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# build output and crash dumps
+/dist
+*.stackdump
+
+# local tooling
+.claude/
